@@ -1,0 +1,685 @@
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+RecursionError: maximum recursion depth exceeded
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 01, 2018 - 05:03:55
+Django version 2.1.1, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[01/Sep/2018 05:04:00] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[01/Sep/2018 05:04:09] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[01/Sep/2018 05:04:09] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[01/Sep/2018 05:04:15] "GET / HTTP/1.1" 404 2027
+^C(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 01, 2018 - 05:06:02
+Django version 2.1.1, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[01/Sep/2018 05:06:04] "GET / HTTP/1.1" 404 2027
+[01/Sep/2018 05:06:21] "GET /polls/ HTTP/1.1" 200 40
+^C(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ^C
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
