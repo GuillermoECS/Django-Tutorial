@@ -683,3 +683,4 @@ Not Found: /
 [01/Sep/2018 05:06:21] "GET /polls/ HTTP/1.1" 200 40
 ^C(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ^C
 (env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+
