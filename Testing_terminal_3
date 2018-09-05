@@ -1,0 +1,990 @@
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Indianapolis
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Inuvik
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Iqaluit
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Jamaica
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Jujuy
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Juneau
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Kentucky/Louisville
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Kentucky/Monticello
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Knox_IN
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Kralendijk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/La_Paz
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Lima
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Los_Angeles
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Louisville
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Lower_Princes
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Maceio
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Managua
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Manaus
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Marigot
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Martinique
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Matamoros
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Mazatlan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Mendoza
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Menominee
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Merida
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Metlakatla
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Mexico_City
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Miquelon
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Moncton
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Monterrey
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Montevideo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Montreal
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Montserrat
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Nassau
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/New_York
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Nipigon
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Nome
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Noronha
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/North_Dakota/Beulah
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/North_Dakota/Center
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/North_Dakota/New_Salem
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Ojinaga
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Panama
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Pangnirtung
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Paramaribo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Phoenix
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Port-au-Prince
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Port_of_Spain
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Porto_Acre
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Porto_Velho
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Puerto_Rico
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Punta_Arenas
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Rainy_River
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Rankin_Inlet
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Recife
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Regina
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Resolute
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Rio_Branco
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Rosario
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Santa_Isabel
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Santarem
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Santiago
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Santo_Domingo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Sao_Paulo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Scoresbysund
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Shiprock
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Sitka
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/St_Barthelemy
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/St_Johns
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/St_Kitts
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/St_Lucia
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/St_Thomas
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/St_Vincent
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Swift_Current
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Tegucigalpa
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Thule
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Thunder_Bay
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Tijuana
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Toronto
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Tortola
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Vancouver
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Virgin
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Whitehorse
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Winnipeg
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Yakutat
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/America/Yellowknife
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Casey
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Davis
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/DumontDUrville
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Macquarie
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Mawson
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/McMurdo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Palmer
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Rothera
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/South_Pole
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Syowa
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Troll
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Antarctica/Vostok
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Arctic/Longyearbyen
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Aden
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Almaty
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Amman
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Anadyr
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Aqtau
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Aqtobe
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Ashgabat
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Ashkhabad
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Atyrau
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Baghdad
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Bahrain
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Baku
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Bangkok
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Barnaul
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Beirut
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Bishkek
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Brunei
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Calcutta
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Chita
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Choibalsan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Chongqing
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Chungking
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Colombo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Dacca
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Damascus
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Dhaka
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Dili
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Dubai
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Dushanbe
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Famagusta
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Gaza
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Harbin
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Hebron
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Ho_Chi_Minh
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Hong_Kong
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Hovd
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Irkutsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Istanbul
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Jakarta
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Jayapura
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Jerusalem
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Kabul
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Kamchatka
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Karachi
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Kashgar
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Kathmandu
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Katmandu
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Khandyga
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Kolkata
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Krasnoyarsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Kuala_Lumpur
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Kuching
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Kuwait
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Macao
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Macau
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Magadan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Makassar
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Manila
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Muscat
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Nicosia
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Novokuznetsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Novosibirsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Omsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Oral
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Phnom_Penh
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Pontianak
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Pyongyang
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Qatar
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Qyzylorda
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Rangoon
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Riyadh
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Saigon
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Sakhalin
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Samarkand
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Seoul
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Shanghai
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Singapore
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Srednekolymsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Taipei
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Tashkent
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Tbilisi
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Tehran
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Tel_Aviv
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Thimbu
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Thimphu
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Tokyo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Tomsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Ujung_Pandang
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Ulaanbaatar
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Ulan_Bator
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Urumqi
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Ust-Nera
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Vientiane
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Vladivostok
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Yakutsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Yangon
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Yekaterinburg
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Asia/Yerevan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Azores
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Bermuda
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Canary
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Cape_Verde
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Faeroe
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Faroe
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Jan_Mayen
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Madeira
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Reykjavik
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/South_Georgia
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/St_Helena
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Atlantic/Stanley
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/ACT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Adelaide
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Brisbane
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Broken_Hill
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Canberra
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Currie
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Darwin
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Eucla
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Hobart
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/LHI
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Lindeman
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Lord_Howe
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Melbourne
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/NSW
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/North
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Perth
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Queensland
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/South
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Sydney
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Tasmania
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Victoria
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/West
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Australia/Yancowinna
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Brazil/Acre
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Brazil/DeNoronha
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Brazil/East
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Brazil/West
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/CET
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/CST6CDT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Canada/Atlantic
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Canada/Central
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Canada/Eastern
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Canada/Mountain
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Canada/Newfoundland
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Canada/Pacific
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Canada/Saskatchewan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Canada/Yukon
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Chile/Continental
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Chile/EasterIsland
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Cuba
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/EET
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/EST
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/EST5EDT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Egypt
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Eire
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+0
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+1
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+10
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+11
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+12
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+2
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+3
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+4
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+5
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+6
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+7
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+8
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT+9
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-0
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-1
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-10
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-11
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-12
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-13
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-14
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-2
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-3
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-4
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-5
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-6
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-7
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-8
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT-9
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/GMT0
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/Greenwich
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/UCT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/UTC
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/Universal
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Etc/Zulu
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Amsterdam
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Andorra
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Astrakhan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Athens
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Belfast
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Belgrade
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Berlin
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Bratislava
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Brussels
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Bucharest
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Budapest
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Busingen
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Chisinau
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Copenhagen
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Dublin
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Gibraltar
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Guernsey
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Helsinki
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Isle_of_Man
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Istanbul
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Jersey
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Kaliningrad
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Kiev
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Kirov
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Lisbon
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Ljubljana
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/London
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Luxembourg
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Madrid
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Malta
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Mariehamn
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Minsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Monaco
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Moscow
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Nicosia
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Oslo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Paris
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Podgorica
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Prague
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Riga
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Rome
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Samara
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/San_Marino
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Sarajevo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Saratov
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Simferopol
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Skopje
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Sofia
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Stockholm
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Tallinn
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Tirane
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Tiraspol
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Ulyanovsk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Uzhgorod
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Vaduz
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Vatican
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Vienna
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Vilnius
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Volgograd
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Warsaw
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Zagreb
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Zaporozhye
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Europe/Zurich
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Factory
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/GB
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/GB-Eire
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/GMT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/GMT+0
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/GMT-0
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/GMT0
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Greenwich
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/HST
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Hongkong
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Iceland
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Antananarivo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Chagos
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Christmas
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Cocos
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Comoro
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Kerguelen
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Mahe
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Maldives
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Mauritius
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Mayotte
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Indian/Reunion
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Iran
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Israel
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Jamaica
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Japan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Kwajalein
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Libya
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/MET
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/MST
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/MST7MDT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Mexico/BajaNorte
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Mexico/BajaSur
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Mexico/General
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/NZ
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/NZ-CHAT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Navajo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/PRC
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/PST8PDT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Apia
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Auckland
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Bougainville
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Chatham
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Chuuk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Easter
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Efate
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Enderbury
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Fakaofo
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Fiji
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Funafuti
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Galapagos
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Gambier
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Guadalcanal
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Guam
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Honolulu
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Johnston
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Kiritimati
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Kosrae
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Kwajalein
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Majuro
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Marquesas
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Midway
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Nauru
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Niue
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Norfolk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Noumea
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Pago_Pago
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Palau
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Pitcairn
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Pohnpei
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Ponape
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Port_Moresby
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Rarotonga
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Saipan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Samoa
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Tahiti
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Tarawa
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Tongatapu
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Truk
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Wake
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Wallis
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Pacific/Yap
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Poland
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Portugal
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/ROC
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/ROK
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Singapore
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Turkey
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/UCT
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Alaska
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Aleutian
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Arizona
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Central
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/East-Indiana
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Eastern
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Hawaii
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Indiana-Starke
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Michigan
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Mountain
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Pacific
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/US/Samoa
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/UTC
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Universal
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/W-SU
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/WET
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/Zulu
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/iso3166.tab
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/leapseconds
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/posixrules
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/tzdata.zi
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/zone.tab
+ delete mode 100644 env/lib/python3.5/site-packages/pytz/zoneinfo/zone1970.tab
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/INSTALLER
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/LICENSE.txt
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/METADATA
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/RECORD
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/WHEEL
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/dependency_links.txt
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/entry_points.txt
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/top_level.txt
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools-40.2.0.dist-info/zip-safe
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__init__.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/__init__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/archive_util.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/build_meta.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/config.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/dep_util.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/depends.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/dist.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/extension.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/glibc.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/glob.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/launch.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/lib2to3_ex.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/monkey.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/msvc.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/namespaces.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/package_index.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/pep425tags.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/py27compat.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/py31compat.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/py33compat.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/py36compat.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/sandbox.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/site-patch.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/ssl_support.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/unicode_utils.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/version.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/wheel.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/__pycache__/windows_support.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/__init__.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/__pycache__/__init__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/__pycache__/pyparsing.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/__pycache__/six.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__about__.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__init__.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/__about__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/__init__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/_compat.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/_structures.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/markers.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/requirements.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/specifiers.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/utils.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/__pycache__/version.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/_compat.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/_structures.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/markers.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/requirements.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/specifiers.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/utils.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/packaging/version.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/pyparsing.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/_vendor/six.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/archive_util.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/build_meta.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/cli-32.exe
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/cli-64.exe
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/cli.exe
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__init__.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/__init__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/alias.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/bdist_egg.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/bdist_rpm.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/bdist_wininst.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/build_clib.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/build_ext.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/build_py.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/develop.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/dist_info.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/easy_install.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/egg_info.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/install.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/install_egg_info.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/install_lib.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/install_scripts.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/py36compat.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/register.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/rotate.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/saveopts.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/sdist.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/setopt.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/test.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/upload.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/__pycache__/upload_docs.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/alias.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/bdist_egg.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/bdist_rpm.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/bdist_wininst.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/build_clib.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/build_ext.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/build_py.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/develop.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/dist_info.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/easy_install.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/egg_info.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/install.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/install_egg_info.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/install_lib.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/install_scripts.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/launcher manifest.xml
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/py36compat.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/register.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/rotate.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/saveopts.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/sdist.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/setopt.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/test.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/upload.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/command/upload_docs.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/config.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/dep_util.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/depends.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/dist.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/extension.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/extern/__init__.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/extern/__pycache__/__init__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/glibc.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/glob.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/gui-32.exe
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/gui-64.exe
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/gui.exe
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/launch.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/lib2to3_ex.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/monkey.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/msvc.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/namespaces.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/package_index.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/pep425tags.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/py27compat.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/py31compat.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/py33compat.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/py36compat.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/sandbox.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/script (dev).tmpl
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/script.tmpl
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/site-patch.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/ssl_support.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/unicode_utils.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/version.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/wheel.py
+ delete mode 100644 env/lib/python3.5/site-packages/setuptools/windows_support.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel-0.31.1.dist-info/INSTALLER
+ delete mode 100644 env/lib/python3.5/site-packages/wheel-0.31.1.dist-info/LICENSE.txt
+ delete mode 100644 env/lib/python3.5/site-packages/wheel-0.31.1.dist-info/METADATA
+ delete mode 100644 env/lib/python3.5/site-packages/wheel-0.31.1.dist-info/RECORD
+ delete mode 100644 env/lib/python3.5/site-packages/wheel-0.31.1.dist-info/WHEEL
+ delete mode 100644 env/lib/python3.5/site-packages/wheel-0.31.1.dist-info/entry_points.txt
+ delete mode 100644 env/lib/python3.5/site-packages/wheel-0.31.1.dist-info/top_level.txt
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__init__.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__main__.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/__init__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/__main__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/archive.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/bdist_wheel.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/egg2wheel.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/install.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/metadata.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/paths.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/pep425tags.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/pkginfo.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/util.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/__pycache__/wininst2wheel.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/archive.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/bdist_wheel.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/egg2wheel.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/install.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/metadata.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/paths.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/pep425tags.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/pkginfo.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/signatures/__init__.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/signatures/__pycache__/__init__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/signatures/__pycache__/djbec.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/signatures/__pycache__/ed25519py.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/signatures/__pycache__/keys.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/signatures/djbec.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/signatures/ed25519py.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/signatures/keys.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/tool/__init__.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/tool/__pycache__/__init__.cpython-35.pyc
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/util.py
+ delete mode 100644 env/lib/python3.5/site-packages/wheel/wininst2wheel.py
+ delete mode 100644 env/lib/python3.5/site.py
+ delete mode 120000 env/lib/python3.5/sre_compile.py
+ delete mode 120000 env/lib/python3.5/sre_constants.py
+ delete mode 120000 env/lib/python3.5/sre_parse.py
+ delete mode 120000 env/lib/python3.5/stat.py
+ delete mode 120000 env/lib/python3.5/struct.py
+ delete mode 120000 env/lib/python3.5/tarfile.py
+ delete mode 120000 env/lib/python3.5/tempfile.py
+ delete mode 120000 env/lib/python3.5/token.py
+ delete mode 120000 env/lib/python3.5/tokenize.py
+ delete mode 120000 env/lib/python3.5/types.py
+ delete mode 120000 env/lib/python3.5/warnings.py
+ delete mode 120000 env/lib/python3.5/weakref.py
+ delete mode 100644 env/pip-selfcheck.json
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        env/
+
+nothing added to commit but untracked files present (use "git add" to track)
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git push origin
+Username for 'https://github.com': GuillermoECS
+Password for 'https://GuillermoECS@github.com':
+Counting objects: 2, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 234 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/GuillermoECS/Django-Tutorial
+   7786247..40c1e67  master -> master
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        env/
+
+nothing added to commit but untracked files present (use "git add" to track)
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git add ".gitignore"
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .gitignore
+
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git commit "Ignore env"
+error: pathspec 'Ignore env' did not match any file(s) known to git.
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git commit
+[master b512b38] Ignore env file
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git push
+Username for 'https://github.com': GuillermoECS
+Password for 'https://GuillermoECS@github.com':
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 343 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/GuillermoECS/Django-Tutorial
+   40c1e67..b512b38  master -> master
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ ls
+env  How to use it  LICENSE  mysite  Pruebas_terminal_1  Pruebas_terminal_2  README.md
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ cd mysite
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ls
+db.sqlite3  manage.py  mysite  polls
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ cd polls
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls$ ls
+admin.py  apps.py  __init__.py  migrations  models.py  __pycache__  tests.py  urls.py  views.py
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls$ cd ..
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ls
+db.sqlite3  manage.py  mysite  polls
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python3 manage.py migrate
+Traceback (most recent call last):
+  File "manage.py", line 8, in <module>
+    from django.core.management import execute_from_command_line
+ImportError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "manage.py", line 14, in <module>
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activatea virtual environment?
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ cd ..
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ ls
+env  How to use it  LICENSE  mysite  Pruebas_terminal_1  Pruebas_terminal_2  README.md
+esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ source env/bin/activate
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial$ cd mysite
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ls
+db.sqlite3  manage.py  mysite  polls
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py makemigrations polls
+Migrations for 'polls':
+  polls/migrations/0001_initial.py
+    - Create model Choice
+    - Create model Question
+    - Add field question to choice
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py sqlmigrate polls 0001
+BEGIN;
+--
+-- Create model Choice
+--
+CREATE TABLE "polls_choice" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "choice_text" varchar(200) NOT NULL, "votes" integer NOT NULL);
+--
+-- Create model Question
+--
+CREATE TABLE "polls_question" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "question_text" varchar(200) NOT NULL, "pub_date" datetime NOT NULL);
+--
+-- Add field question to choice
+--
+ALTER TABLE "polls_choice" RENAME TO "polls_choice__old";
+CREATE TABLE "polls_choice" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "choice_text" varchar(200) NOT NULL, "votes" integer NOT NULL, "question_id" integer NOT NULL REFERENCES "polls_question" ("id") DEFERRABLE INITIALLY DEFERRED);
+INSERT INTO "polls_choice" ("votes", "choice_text", "id", "question_id") SELECT "votes", "choice_text", "id", NULL FROM "polls_choice__old";
+DROP TABLE "polls_choice__old";
+CREATE INDEX "polls_choice_question_id_c5b4b260" ON "polls_choice" ("question_id");
+COMMIT;
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, polls, sessions
+Running migrations:
+  Applying polls.0001_initial... OK
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py shell
+Python 3.5.3 (default, Jan 19 2017, 14:11:04)
+[GCC 6.3.0 20170118] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from polls.models import Choice,Question
+>>> Question.objects.all()
+<QuerySet []>
+>>> from django.utils import timezone
+>>> q = Question(question_text='What's new?", pub_date=timezone.now())
+  File "<console>", line 1
+    q = Question(question_text='What's new?", pub_date=timezone.now())
+                                     ^
+SyntaxError: invalid syntax
+>>> q = Question(question_text='What"s new?", pub_date=timezone.now())
+  File "<console>", line 1
+    q = Question(question_text='What"s new?", pub_date=timezone.now())
+                                                                     ^
+SyntaxError: EOL while scanning string literal
+>>> q = Question(question_text='What"s new?', pub_date=timezone.now())
+>>> Question.objects.all()
+<QuerySet []>
+>>> q.save()
+>>> Question.objects.all()
+<QuerySet [<Question: Question object (1)>]>
+>>> q.id
+1
+>>> q.question_text
+'What"s new?'
+>>> q.pub_date
+datetime.datetime(2018, 9, 5, 17, 59, 9, 727410, tzinfo=<UTC>)
+>>> q.question_text= "What's up"
+>>> q.save()
+>>> Question.objects.all()
+<QuerySet [<Question: Question object (1)>]>
+>>> Question.objects.all()
+<QuerySet [<Question: Question object (1)>]>
+>>> from polls.models import Choice,Question
+>>> Question.objects.all()
+<QuerySet [<Question: Question object (1)>]>
+>>> Question.objects.all()
+<QuerySet [<Question: Question object (1)>]>
+>>> from polls.models import Choice,Question
+>>> Question.objects.all()
+<QuerySet [<Question: Question object (1)>]>
+>>> from polls.models import Choice,Question
+>>> Question.objects.all()
+<QuerySet [<Question: Question object (1)>]>
+>>> from polls.models import Choice,Question
+>>> Question.objects.all()
+<QuerySet [<Question: Question object (1)>]>
+>>> exit()
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py shell
+Python 3.5.3 (default, Jan 19 2017, 14:11:04)
+[GCC 6.3.0 20170118] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from polls.models import Choice,Question
+>>> Questions.objects.all()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Questions' is not defined
+>>> Question.objects.all()
+<QuerySet [<Question: What's up>]>
+>>> q = Question("How are you",pub_date=timezone.now())
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'timezone' is not defined
+>>> q = Question("How are you",timezone.now())
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'timezone' is not defined
+>>> q = Question(question_text="How are you",pub_date=timezone.now())
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'timezone' is not defined
+>>> from django.utils import timezone
+>>> q = Question("How are you",timezone.now())
+>>> q.save
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/base.py", line 503, in __repr__
+    return '<%s: %s>' % (self.__class__.__name__, self)
+TypeError: __str__ returned non-string (type datetime.datetime)
+>>> q.save()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/base.py", line 812, in _save_table
+    forced_update)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/base.py", line 841, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'How are you'
+>>> q= Question(question_text = 'How are you',pub_date=timezone.now())
+>>> q.save()
+>>> q.id
+2
+>>> Question.objects.all()
+<QuerySet [<Question: What's up>, <Question: How are you>]>
+>>> Questions.objects.filter(id=1)
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Questions' is not defined
+>>> Question.objects.filter(id=1)
+<QuerySet [<Question: What's up>]>
+>>> Question.objects.filter(question_text__startswith='What')
+<QuerySet [<Question: What's up>]>
+>>> current_year=timezone.now().year
+>>> Question.objects.get(pub_date__year=current_year)
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/query.py", line 403, in get
+    (self.model._meta.object_name, num)
+polls.models.Question.MultipleObjectsReturned: get() returned more than one Question -- it returned 2!
+>>> Question.objects.get(id=2)
+<Question: How are you>
+>>> Question.objects.get(id=3)
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+polls.models.Question.DoesNotExist: Question matching query does not exist.
+>>> Question.objects.get(pk=2)
+<Question: How are you>
+>>> z = Question.objects.get(pk=1)
+>>> z.was_published_recently()
+True
+>>> q.choice_set.all()
+<QuerySet []>
+>>> q.question_text
+'How are you'
+>>> q.choice_set.create(choice_text='Not much', votes=0)
+<Choice: Not much>
+>>> q.choice_set.create(choice_text='The Sky', votes=0)
+<Choice: The Sky>
+>>> c=Question.objects.get(pk=1)
+>>> d = c.choice_set.create(choice_text='Just hacking again', votes=0)
+>>> c.question
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+AttributeError: 'Question' object has no attribute 'question'
+>>> d.question
+<Question: What's up>
+>>> c.question_text
+"What's up"
+>>> d.choice_text
+'Just hacking again'
+>>> q.choice_set.all()
+<QuerySet [<Choice: Not much>, <Choice: The Sky>]>
+>>> q.choice_set.count()
+2
+>>> Choice.objects.filter(question__pub_date__year=current_year)
+<QuerySet [<Choice: Not much>, <Choice: The Sky>, <Choice: Just hacking again>]>
+>>> c = q.choice_set.filter(choice_text__startswith='Just hacking)
+  File "<console>", line 1
+    c = q.choice_set.filter(choice_text__startswith='Just hacking)
+                                                                 ^
+SyntaxError: EOL while scanning string literal
+>>> c = q.choice_set.filter(choice_text__startswith='Just hacking')
+>>> c.delete()
+(0, {'polls.Choice': 0})
+>>>
