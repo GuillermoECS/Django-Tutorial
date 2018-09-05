@@ -6,3 +6,6 @@
 
 # Ignore the default SQLite database.
 /mysite/*.sqlite3
+
+# Ignore virtual environment
+env/
