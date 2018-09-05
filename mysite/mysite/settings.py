@@ -105,6 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+# Time zone of San Jose, Costa Rica
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
