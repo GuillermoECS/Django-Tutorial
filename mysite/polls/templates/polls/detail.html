@@ -1,0 +1,10 @@
+<!--Muestra la pregunta ; de acuerdo a la funcion __str-->
+<!--https://stackoverflow.com/questions/37159116/django-invalid-block-tag-on-line-14-else-did-you-forget-to-register-or-load-->
+<h1>{{ question}}</h1>
+<ul>
+    {% if question.choice_set.all %} {% for choice in question.choice_set.all %}
+    <li>{{ choice }}</li>
+    {% endfor %} {% else %}
+    <li>No choices are available.</li>
+    {% endif %}
+</ul>

@@ -12,7 +12,9 @@ class Question(models.Model):  # Class Question :
 
     # Change print format
     def __str__(self):
-        return self.question_text
+        # return self.question_text
+        # https://stackoverflow.com/questions/39883950/str-returned-non-string-type-tuple
+        return 'Question: {} -- Publication date: {}'.format(self.question_text, self.pub_date)
 
     # Method: Published recently
     def was_published_recently(self):
@@ -27,4 +29,5 @@ class Choice(models.Model):  # Class Chocie :
 
     # Change print format
     def __str__(self):
-        return self.choice_text
+        # return self.choice_text
+        return 'Choice: {} -- Votes: {}'.format(self.choice_text, self.votes)
