@@ -1,11 +1,16 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}"> 
 {% if latest_question_list %}
 <ul>
     {% for question in latest_question_list %}
 
-    {# <!--Hardcoded URLS--> #} 
-    {# <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li> #} 
-    {# <!--Hardcode URL removed--> #} 
+
+    {# <!--Hardcoded URLS--> #}
+    {# <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li> #}
+    {# <!--Hardcode URL removed--> #}
     {# <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li> #}
+
 
     <!--Hardcode URL removed and set App name-->
     <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
@@ -13,5 +18,4 @@
 </ul>
 {% else %}
 <p>No polls are available.</p>
-{% endif %} 
-
+{% endif %}
