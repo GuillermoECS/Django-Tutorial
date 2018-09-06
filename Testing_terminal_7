@@ -1,0 +1,801 @@
+======================================================================
+ERROR: test_future_question_and_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 94, in test_future_question_and_past_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_no_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 60, in test_no_questions
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 71, in test_past_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_two_past_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 106, in test_two_past_questions
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.117s
+
+FAILED (errors=5)
+Destroying test database for alias 'default'...
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ^C
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ^C
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py test polls.tests.QuestionIndexViewTests
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+EEEEE
+======================================================================
+ERROR: test_future_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 83, in test_future_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_future_question_and_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 94, in test_future_question_and_past_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_no_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 59, in test_no_questions
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 70, in test_past_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_two_past_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 106, in test_two_past_questions
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.101s
+
+FAILED (errors=5)
+Destroying test database for alias 'default'...
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python3 manage.py test polls.tests.QuestionIndexViewTests
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+EEEEE
+======================================================================
+ERROR: test_future_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 83, in test_future_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_future_question_and_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 94, in test_future_question_and_past_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_no_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 59, in test_no_questions
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 70, in test_past_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_two_past_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 106, in test_two_past_questions
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 116, in get_queryset
+    pub_date__lte=timezone.now()
+NameError: name 'timezone' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.090s
+
+FAILED (errors=5)
+Destroying test database for alias 'default'...
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python3 manage.py test polls.tests.QuestionIndexViewTestsCreating test database for alias 'default'...
+System check identified no issues (0 silenced).
+EEEEE
+======================================================================
+ERROR: test_future_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 83, in test_future_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 115, in get_queryset
+    return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_future_question_and_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 94, in test_future_question_and_past_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 115, in get_queryset
+    return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_no_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 59, in test_no_questions
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 115, in get_queryset
+    return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 70, in test_past_question
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 115, in get_queryset
+    return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
+NameError: name 'timezone' is not defined
+
+======================================================================
+ERROR: test_two_past_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 106, in test_two_past_questions
+    response = self.client.get(reverse('polls:index'))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 527,in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 339,in get
+    **extra,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 414,in generic
+    return self.request(**r)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/client.py", line 495,in request
+    raise exc_value
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/views/generic/list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 115, in get_queryset
+    return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
+NameError: name 'timezone' is not defined
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.098s
+
+FAILED (errors=5)
+Destroying test database for alias 'default'...
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python3 manage.py test polls.tests.QuestionIndexViewTestsCreating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.F.FF
+======================================================================
+FAIL: test_future_question_and_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 97, in test_future_question_and_past_question
+    ['<Question: Past question.>']
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/testcases.py", line 955, in assertQuerysetEqual
+    return self.assertEqual(list(items), values, msg=msg)
+AssertionError: Lists differ: ['<Question: Question: Past question. -- Publication d[35 chars]00>'] != ['<Question: Past question.>']
+
+First differing element 0:
+'<Question: Question: Past question. -- Publication d[34 chars]:00>'
+'<Question: Past question.>'
+
++ ['<Question: Past question.>']
+- ['<Question: Question: Past question. -- Publication date: 2018-08-07 '
+-  '04:40:35.076007+00:00>']
+
+======================================================================
+FAIL: test_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 73, in test_past_question
+    ['<Question: Past question.>']
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/testcases.py", line 955, in assertQuerysetEqual
+    return self.assertEqual(list(items), values, msg=msg)
+AssertionError: Lists differ: ['<Question: Question: Past question. -- Publication d[35 chars]00>'] != ['<Question: Past question.>']
+
+First differing element 0:
+'<Question: Question: Past question. -- Publication d[34 chars]:00>'
+'<Question: Past question.>'
+
++ ['<Question: Past question.>']
+- ['<Question: Question: Past question. -- Publication date: 2018-08-07 '
+-  '04:40:35.087557+00:00>']
+
+======================================================================
+FAIL: test_two_past_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 109, in test_two_past_questions
+    ['<Question: Past question 2.>', '<Question: Past question 1.>']
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/testcases.py", line 955, in assertQuerysetEqual
+    return self.assertEqual(list(items), values, msg=msg)
+AssertionError: Lists differ: ['<Question: Question: Past question 2. -- Publication[133 chars]00>'] != ['<Question: Past question 2.>', '<Question: Past question 1.>']
+
+First differing element 0:
+'<Question: Question: Past question 2. -- Publication[36 chars]:00>'
+'<Question: Past question 2.>'
+
++ ['<Question: Past question 2.>', '<Question: Past question 1.>']
+- ['<Question: Question: Past question 2. -- Publication date: 2018-09-01 '
+-  '04:40:35.095425+00:00>',
+-  '<Question: Question: Past question 1. -- Publication date: 2018-08-07 '
+-  '04:40:35.094886+00:00>']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.041s
+
+FAILED (failures=3)
+Destroying test database for alias 'default'...
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python3 manage.py test polls.tests.QuestionIndexViewTestsCreating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.F.FF
+======================================================================
+FAIL: test_future_question_and_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 97, in test_future_question_and_past_question
+    ['<Question: Past question.>']
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/testcases.py", line 955, in assertQuerysetEqual
+    return self.assertEqual(list(items), values, msg=msg)
+AssertionError: Lists differ: ['<Question: Question: Past question. -- Publication d[35 chars]00>'] != ['<Question: Past question.>']
+
+First differing element 0:
+'<Question: Question: Past question. -- Publication d[34 chars]:00>'
+'<Question: Past question.>'
+
++ ['<Question: Past question.>']
+- ['<Question: Question: Past question. -- Publication date: 2018-08-07 '
+-  '04:40:47.323601+00:00>']
+
+======================================================================
+FAIL: test_past_question (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 73, in test_past_question
+    ['<Question: Past question.>']
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/testcases.py", line 955, in assertQuerysetEqual
+    return self.assertEqual(list(items), values, msg=msg)
+AssertionError: Lists differ: ['<Question: Question: Past question. -- Publication d[35 chars]00>'] != ['<Question: Past question.>']
+
+First differing element 0:
+'<Question: Question: Past question. -- Publication d[34 chars]:00>'
+'<Question: Past question.>'
+
++ ['<Question: Past question.>']
+- ['<Question: Question: Past question. -- Publication date: 2018-08-07 '
+-  '04:40:47.333958+00:00>']
+
+======================================================================
+FAIL: test_two_past_questions (polls.tests.QuestionIndexViewTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/tests.py", line 109, in test_two_past_questions
+    ['<Question: Past question 2.>', '<Question: Past question 1.>']
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/test/testcases.py", line 955, in assertQuerysetEqual
+    return self.assertEqual(list(items), values, msg=msg)
+AssertionError: Lists differ: ['<Question: Question: Past question 2. -- Publication[133 chars]00>'] != ['<Question: Past question 2.>', '<Question: Past question 1.>']
+
+First differing element 0:
+'<Question: Question: Past question 2. -- Publication[36 chars]:00>'
+'<Question: Past question 2.>'
+
++ ['<Question: Past question 2.>', '<Question: Past question 1.>']
+- ['<Question: Question: Past question 2. -- Publication date: 2018-09-01 '
+-  '04:40:47.339813+00:00>',
+-  '<Question: Question: Past question 1. -- Publication date: 2018-08-07 '
+-  '04:40:47.339462+00:00>']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.039s
+
+FAILED (failures=3)
+Destroying test database for alias 'default'...
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python3 manage.py test polls.tests.QuestionIndexViewTestsCreating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.040s
+
+OK
+Destroying test database for alias 'default'...
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py test polls.tests.QuestionDetailViewTestsCreating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.029s
+
+OK
+Destroying test database for alias 'default'...
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py runserverPerforming system checks...
+
+System check identified no issues (0 silenced).
+September 06, 2018 - 04:57:48
+Django version 2.1.1, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[06/Sep/2018 04:57:53] "GET /polls/3/ HTTP/1.1" 200 593
+[06/Sep/2018 04:57:55] "GET /polls/2/ HTTP/1.1" 200 813
+[06/Sep/2018 04:57:56] "GET /polls/3/ HTTP/1.1" 200 593
+[06/Sep/2018 04:57:57] "POST /polls/3/vote/ HTTP/1.1" 200 649
+[06/Sep/2018 04:58:02] "GET /polls/3/ HTTP/1.1" 200 593
+[06/Sep/2018 04:58:03] "POST /polls/3/vote/ HTTP/1.1" 200 649
+[06/Sep/2018 04:58:06] "GET /polls/2/ HTTP/1.1" 200 813
+[06/Sep/2018 04:58:09] "POST /polls/2/vote/ HTTP/1.1" 302 0
+[06/Sep/2018 04:58:09] "GET /polls/2/results/ HTTP/1.1" 200 150
+[06/Sep/2018 04:58:11] "GET /polls/2/ HTTP/1.1" 200 813
+[06/Sep/2018 04:58:13] "POST /polls/2/vote/ HTTP/1.1" 302 0
+[06/Sep/2018 04:58:13] "GET /polls/2/results/ HTTP/1.1" 200 150
+[06/Sep/2018 04:58:18] "GET /polls/1/ HTTP/1.1" 200 703
+[06/Sep/2018 04:58:20] "POST /polls/1/vote/ HTTP/1.1" 302 0
+[06/Sep/2018 04:58:20] "GET /polls/1/results/ HTTP/1.1" 200 124
+[06/Sep/2018 04:58:21] "GET /polls/1/ HTTP/1.1" 200 703
+[06/Sep/2018 04:58:24] "GET /polls/ HTTP/1.1" 200 413
+Not Found: /polls//
+[06/Sep/2018 04:58:28] "GET /polls// HTTP/1.1" 404 2697
+[06/Sep/2018 04:58:33] "GET /polls/3/ HTTP/1.1" 200 593
+[06/Sep/2018 04:58:40] "GET /polls/ HTTP/1.1" 200 413
+^C(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ^C
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ^C
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$

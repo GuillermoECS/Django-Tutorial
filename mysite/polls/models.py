@@ -12,13 +12,20 @@ class Question(models.Model):  # Class Question :
 
     # Change print format
     def __str__(self):
-        # return self.question_text
+        return self.question_text
         # https://stackoverflow.com/questions/39883950/str-returned-non-string-type-tuple
-        return 'Question: {} -- Publication date: {}'.format(self.question_text, self.pub_date)
+        # No es util en los tests
+        # return 'Question: {} -- Publication date: {}'.format(self.question_text, self.pub_date)
 
     # Method: Published recently
     def was_published_recently(self):
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        # With Bug:
+        # El dia antes o cualquier fecha mayor a la de hoy
+        # return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        # Without bug:
+        # El dia antes o el mismo dia
+        now = timezone.now()
+        return now - datetime.timedelta(days=1) <= self.pub_date <= now
 
 
 class Choice(models.Model):  # Class Chocie :
@@ -29,5 +36,6 @@ class Choice(models.Model):  # Class Chocie :
 
     # Change print format
     def __str__(self):
-        # return self.choice_text
-        return 'Choice: {} -- Votes: {}'.format(self.choice_text, self.votes)
+        return self.choice_text
+        # No es util en los tests
+        # return 'Choice: {} -- Votes: {}'.format(self.choice_text, self.votes)
