@@ -9,3 +9,6 @@
 
 # Ignore virtual environment
 env/
+
+# Ignore files of tests in terminal
+terminal/

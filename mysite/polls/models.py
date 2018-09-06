@@ -26,6 +26,10 @@ class Question(models.Model):  # Class Question :
         # El dia antes o el mismo dia
         now = timezone.now()
         return now - datetime.timedelta(days=1) <= self.pub_date <= now
+        # Allow sort in admin site
+        was_published_recently.admin_order_field = 'pub_date'
+        was_published_recently.boolean = True
+        was_published_recently.short_description = 'Published recently?'
 
 
 class Choice(models.Model):  # Class Chocie :
