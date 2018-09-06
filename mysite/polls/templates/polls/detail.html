@@ -1,5 +1,8 @@
 <!--Muestra la pregunta ; de acuerdo a la funcion __str-->
 <!--https://stackoverflow.com/questions/37159116/django-invalid-block-tag-on-line-14-else-did-you-forget-to-register-or-load-->
+
+<!--Show Question and answers easily-->
+<!--
 <h1>{{ question}}</h1>
 <ul>
     {% if question.choice_set.all %} {% for choice in question.choice_set.all %}
@@ -8,3 +11,18 @@
     <li>No choices are available.</li>
     {% endif %}
 </ul>
+-->
+
+
+<!-- Form action -->
+<h1>{{ question.question_text }}</h1>
+
+{% if error_message %}
+<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<form action="{% url 'polls:vote' question.id %}" method="post">
+    {% csrf_token %} {% for choice in question.choice_set.all %}
+    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br> {% endfor %}
+    <input type="submit" value="Vote">
+</form>

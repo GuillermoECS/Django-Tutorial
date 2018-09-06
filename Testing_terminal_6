@@ -1,0 +1,765 @@
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 542, in url_patterns
+    raise ImproperlyConfigured(msg.format(name=self.urlconf_name))
+django.core.exceptions.ImproperlyConfigured: The included URLconf '<module 'polls.urls' from '/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py'>' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f1d77851730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 535, in url_patterns
+    iter(patterns)
+TypeError: 'module' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 542, in url_patterns
+    raise ImproperlyConfigured(msg.format(name=self.urlconf_name))
+django.core.exceptions.ImproperlyConfigured: The included URLconf '<module 'polls.urls' from '/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py'>' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f3c2b14a730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 535, in url_patterns
+    iter(patterns)
+TypeError: 'module' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 542, in url_patterns
+    raise ImproperlyConfigured(msg.format(name=self.urlconf_name))
+django.core.exceptions.ImproperlyConfigured: The included URLconf '<module 'polls.urls' from '/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py'>' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f49b0caa730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 535, in url_patterns
+    iter(patterns)
+TypeError: 'module' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 542, in url_patterns
+    raise ImproperlyConfigured(msg.format(name=self.urlconf_name))
+django.core.exceptions.ImproperlyConfigured: The included URLconf '<module 'polls.urls' from '/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py'>' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f47384d77b8>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 535, in url_patterns
+    iter(patterns)
+TypeError: 'module' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 397, in check
+    warnings.extend(check_resolver(pattern))
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 542, in url_patterns
+    raise ImproperlyConfigured(msg.format(name=self.urlconf_name))
+django.core.exceptions.ImproperlyConfigured: The included URLconf '<module 'polls.urls' from '/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py'>' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f34991b2730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 25, in <module>
+    path('', views.IndexView.as_view(), name='index'),
+AttributeError: module 'polls.views' has no attribute 'IndexView'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f160bedd730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 25, in <module>
+    path('', views.IndexView.as_view(), name='index'),
+AttributeError: module 'polls.views' has no attribute 'IndexView'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f8cbf1b0730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 25, in <module>
+    path('', views.IndexView.as_view(), name='index'),
+AttributeError: module 'polls.views' has no attribute 'IndexView'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f2edd79e730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 25, in <module>
+    path('', views.IndexView.as_view(), name='index'),
+AttributeError: module 'polls.views' has no attribute 'IndexView'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7fd9df117730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 25, in <module>
+    path('', views.IndexView.as_view(), name='index'),
+AttributeError: module 'polls.views' has no attribute 'IndexView'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7fe3db2d97b8>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 25, in <module>
+    path('', views.IndexView.as_view(), name='index'),
+AttributeError: module 'polls.views' has no attribute 'IndexView'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f471d2f67b8>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 25, in <module>
+    path('', views.IndexView.as_view(), name='index'),
+AttributeError: module 'polls.views' has no attribute 'IndexView'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7ff759ffd730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 25
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    ^
+IndentationError: unexpected indent
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f506bcd3730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 25
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    ^
+IndentationError: unexpected indent
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f78c5fcb730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 25
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    ^
+IndentationError: unexpected indent
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f59f138c730>
+Traceback (most recent call last):
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/autoreload.py", line225, in wrapper
+    fn(*args, **kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 379, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/management/base.py", line 366, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/registry.py", line 71, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/core/checks/urls.py", line23, in check_resolver
+    return check_method()
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 396, in check
+    for pattern in self.url_patterns:
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/utils/functional.py", line37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/mysite/urls.py", line 20, in <module>
+    path('polls/', include('polls.urls', namespace="polls")),
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/site-packages/django/urls/conf.py", line 34, ininclude
+    urlconf_module = import_module(urlconf_module)
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 673, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/home/esteban/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite/polls/views.py", line 25
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    ^
+IndentationError: unexpected indent
+^C(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 06, 2018 - 02:58:44
+Django version 2.1.1, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[06/Sep/2018 02:58:55] "GET /polls/ HTTP/1.1" 200 413
+[06/Sep/2018 02:58:58] "GET /polls/3/ HTTP/1.1" 200 650
+[06/Sep/2018 02:59:00] "GET /polls/2/ HTTP/1.1" 200 910
+[06/Sep/2018 02:59:04] "POST /polls/2/vote/ HTTP/1.1" 200 966
+[06/Sep/2018 02:59:07] "POST /polls/2/vote/ HTTP/1.1" 302 0
+[06/Sep/2018 02:59:07] "GET /polls/2/results/ HTTP/1.1" 200 149
+[06/Sep/2018 02:59:09] "GET /polls/2/ HTTP/1.1" 200 910
+[06/Sep/2018 02:59:11] "POST /polls/2/vote/ HTTP/1.1" 302 0
+[06/Sep/2018 02:59:11] "GET /polls/2/results/ HTTP/1.1" 200 150
+[06/Sep/2018 02:59:12] "GET /polls/2/ HTTP/1.1" 200 910
+[06/Sep/2018 02:59:12] "POST /polls/2/vote/ HTTP/1.1" 200 966
+[06/Sep/2018 02:59:15] "POST /polls/2/vote/ HTTP/1.1" 302 0
+[06/Sep/2018 02:59:15] "GET /polls/2/results/ HTTP/1.1" 200 150
+[06/Sep/2018 02:59:31] "GET /polls/2/ HTTP/1.1" 200 910
+Not Found: /polls/4/
+[06/Sep/2018 02:59:34] "GET /polls/4/ HTTP/1.1" 404 1731
+[06/Sep/2018 03:01:08] "GET /polls/ HTTP/1.1" 200 413
+^C(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   mysite/__pycache__/urls.cpython-35.pyc
+        modified:   mysite/urls.pyssn@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$ ^C
+(env) esteban@debian:~/Desktop/SOLVO/Proyecto/Herramientas/Django/Django-Tutorial/mysite$
