@@ -1,7 +1,0 @@
-1. Locate in virtual environment.
-2. Activate virtualenv:
-source env/bin/activate
-3. Locate in Django project location.
-4. Run in Django development server:
-python manage.py runserver
-5. Enjoy it !
