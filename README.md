@@ -38,7 +38,7 @@ $ source env/bin/activate
 # Go into Django Project
 $ cd Django-Tutorial/mysite
 
-# Run the app
+# Run the app in Django Development Server
 $ python manage.py runserver
 ```
 
