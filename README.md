@@ -46,7 +46,7 @@ $ python manage.py runserver
 
 -[Installation SQLite](https://www.techinfected.net/2018/01/how-to-install-sqlite3-in-ubuntu-linux-mint.html)<br>
 -[Installation virtual environment in Python](https://rukbottoland.com/blog/tutorial-de-python-virtualenv/)<br>
--[Pool Application](https://www.djangoproject.com/)
+-[Pool Application](https://docs.djangoproject.com/en/2.1/intro/)
 
 
 ## License
