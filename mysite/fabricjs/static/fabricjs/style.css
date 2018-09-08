@@ -1,0 +1,24 @@
+li a {
+    color: black;
+}
+body {
+    background: rgb(45, 255, 185);
+}
+#center_canvas {
+    width: 1000px;
+    height:500px;
+    margin: 0px auto;
+    border: 5px solid black;
+    background-color: white;
+}
+.button{
+    background-color:black;
+    color: white;
+    margin:auto;
+    display:block;
+}
+.button_no_center{
+    background-color:black;
+    color: white;
+    display:block;
+}

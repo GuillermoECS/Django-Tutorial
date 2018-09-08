@@ -1,0 +1,97 @@
+
+<html>
+    <head>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'fabricjs/style.css' %}">
+       <!-- <script src="{% static 'fabricjs/jquery.min.js' %}"></script> -->
+        <script src="{% static 'fabricjs/fabric.min.js' %}"></script>
+        <script src="{% static 'fabricjs/canvas-toBlob.js' %}"></script>
+        <script src="{% static 'fabricjs/jquery.min.js' %}"></script>
+        <script src="{% static 'fabricjs/FileSaver.min.js' %}"></script>
+
+
+    </head>
+    <body>
+        <!--Fabric.js Tutorial-Part 1:Introduction-->
+        {% if tutorial_number == 1 %}
+        <h1 align=center>Fabric.js Tutorial-Part 1:Introduction</h1>
+        <!--
+            Fabric.js : Permite tratar cada elemento(sprite) dibujado en HTML5 Canvas como si fuera un objeto. De
+            esta manera, se permite rotar, girar , escalar e inclusive animar ; en otras palabras, moverlo libremente.
+        -->
+        <!--{{tutorial_number}}<br>-->
+        <div id="center_canvas">
+            <!--Canvas-->
+            <canvas id="canva" width="1000" height="500"></canvas>
+            <br>
+            <!--Move rectangle right button-->
+            <input align="center" id="buttonRight" type="button" value="Go Right" class="button">
+        </div>
+        <script src="{% static 'fabricjs/tutorial1.js' %}"> </script>           
+        {% endif %}
+
+        <!--Fabric.js Tutorial-Part 2: Add Object-->
+        {% if tutorial_number == 2 %}
+        <h1 align=center>Fabric.js Tutorial-Part 2: Add Object</h1>
+        <div id="center_canvas">
+            <!--Canvas-->
+            <canvas id="canva" width="1000" height="500"></canvas>
+            <br>
+            <!--Move rectangle right button-->
+            <input align="center" id="buttonRight" type="button" value="Go Right" class="button">
+        </div>
+        <script src="{% static 'fabricjs/tutorial2.js' %}"> </script>           
+        {% endif %}
+
+       <!--Fabric.js Tutorial - Part 3: Load Image-->
+       {% if tutorial_number == 3 %}
+       <h1 align=center>Fabric.js Tutorial - Part 3: Load Image</h1>
+       <div id="center_canvas">
+           <!--Canvas-->
+           <canvas id="canvas" width="1000" height="500"></canvas>
+       </div>
+       <script src="{% static 'fabricjs/tutorial3.js' %}"> </script>           
+       {% endif %}
+       
+       <!--Fabric.js Tutorial - Part 4: Animation-->
+       {% if tutorial_number == 4 %}
+       <h1 align=center>Fabric.js Tutorial - Part 4: Animation</h1>
+       <div id="center_canvas">
+           <!--Canvas-->
+           <canvas id="canvas" width="1000" height="500"></canvas>
+           <br>
+           <!--Animate image right-->
+           <input style="float: left;" id="animateRight" type="button" value="Animate Right" class="button_no_center">
+           <!--Animate multiple attributes-->
+           <input style="float: left;" id="animateMult" type="button" value="Animate Multiple Attributes" class="button_no_center">
+           <!--Animation easing effect-->
+           <input style="float: left;" id="animatEasiEfect" type="button" value="Animation Easing Effect" class="button_no_center">
+       </div>
+       <script src="{% static 'fabricjs/tutorial4.js' %}"> </script>           
+       {% endif %}
+
+       <!--Fabric.js Tutorial - Part 5: Event-->
+       {% if tutorial_number == 5 %}
+       <h1 align=center>Fabric.js Tutorial - Part 5: Event</h1>
+       <div id="center_canvas">
+           <!--Canvas-->
+           <canvas id="canvas" width="1000" height="500"></canvas>
+       </div>
+       <script src="{% static 'fabricjs/tutorial5.js' %}"> </script>           
+       {% endif %} 
+       
+       <!--Fabric.js Tutorial - Part 6: Export Canvas to Image-->
+       {% if tutorial_number == 6 %}
+       <h1 align=center>Fabric.js Tutorial - Part 6: Export Canvas to Image</h1>
+       <div id="center_canvas">
+           <!--Canvas-->
+           <canvas id="canvas" width="1000" height="500"></canvas>
+           <br>
+            <!--Export Canvas to image PNG-->
+            <input align="center" id="exportPNG" type="button" value="Export Canvas To Image PNG" class="button">
+       </div>
+       <script src="{% static 'fabricjs/tutorial6.js' %}"> </script>         
+       {% endif %} 
+        
+    </body>
+</html>

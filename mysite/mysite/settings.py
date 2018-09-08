@@ -34,6 +34,8 @@ INSTALLED_APPS = [
     # Polls app is installed
     # Django knows to include the polls app
     'polls.apps.PollsConfig',
+    # Django knows to include the fabricjs app
+    'fabricjs.apps.FabricjsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

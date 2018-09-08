@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('polls/', include('polls.urls', namespace="polls")),
+    path('polls/', include('polls.urls', namespace="polls")),  # polls urls
+    path('fabricjs/', include('fabricjs.urls', namespace="fabricjs")),  # fabricjs
     path('admin/', admin.site.urls),
 ]

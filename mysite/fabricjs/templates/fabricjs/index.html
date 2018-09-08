@@ -1,0 +1,16 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'fabricjs/style.css' %}">
+
+<h1 align=center>Fabricjs</h1>
+<h2 align=center>Table of Contents</h2>
+<ul>
+    <h3 align=left>Fabricjs basics course Tutorial</h3>   
+    <!--Hardcode URL removed and set App name-->
+    <li><a href="{% url 'fabricjs:tutorial' 1 %}">Fabric.js Tutorial-Part 1: Introduction</a></li>
+    <li><a href="{% url 'fabricjs:tutorial' 2 %}">Fabric.js Tutorial-Part 2: Add Object</a></li>
+    <li><a href="{% url 'fabricjs:tutorial' 3 %}">Fabric.js Tutorial - Part 3: Load Image</a></li>   
+    <li><a href="{% url 'fabricjs:tutorial' 4 %}">Fabric.js Tutorial - Part 4: Animation</a></li>     
+    <li><a href="{% url 'fabricjs:tutorial' 5 %}">Fabric.js Tutorial - Part 5: Event</a></li>   
+    <li><a href="{% url 'fabricjs:tutorial' 6 %}">Fabric.js Tutorial - Part 6: Export Canvas to Image</a></li>   
+</ul>
