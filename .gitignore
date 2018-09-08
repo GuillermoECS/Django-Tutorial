@@ -12,3 +12,15 @@ env/
 
 # Ignore files of tests in terminal
 terminal/
+
+# Ignore Library Fabric.js
+/mysite/fabricjs/static/fabricjs/fabric.min.js
+
+# Ignore Library FileSaver.js
+/mysite/fabricjs/static/fabricjs/FileSaver.min.js
+
+# Ignore Library canvas-toBlob.js
+/mysite/fabricjs/static/fabricjs/canvas-toBlob.js
+
+# Ignore Library jquery.min.js
+/mysite/fabricjs/static/fabricjs/jquery.min.js
