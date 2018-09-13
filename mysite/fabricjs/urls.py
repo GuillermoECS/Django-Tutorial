@@ -9,6 +9,8 @@ urlpatterns = [
     # Index
     # ex: /fabricjs/
     path('', views.index, name='index'),
-    # ex: /fabricjs/tutorial/tutorial_number/
-    path('Basics_Course/<int:tutorial_number>/', views.tutorial, name='tutorial'),
+    # ex: /fabricjs/Basics_Course_Tutorial/tutorial_number/
+    path('Basics_Course_Tutorial/<int:tutorial_number>/', views.Basics_Course_Tutorial, name='Basics_Course_Tutorial'),
+    # ex: /fabricjs/Official_Documentation/tutorial_number/
+    path('Official_Documentation/<int:tutorial_number>/', views.Official_Documentation, name='Official_Documentation')
 ]

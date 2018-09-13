@@ -9,9 +9,18 @@ def index(request):
     return render(request, 'fabricjs/index.html', {})
 
 
-def tutorial(request, tutorial_number):
+def Basics_Course_Tutorial(request, tutorial_number):
     # print(tutorial_number)
-    template = loader.get_template('fabricjs/tutorial.html')
+    template = loader.get_template('fabricjs/Basics_Course_Tutorial.html')
+    args = {
+        'tutorial_number': tutorial_number
+    }
+    return HttpResponse(template.render(args, request))
+
+
+def Official_Documentation(request, tutorial_number):
+    # print(tutorial_number)
+    template = loader.get_template('fabricjs/Official_Documentation.html')
     args = {
         'tutorial_number': tutorial_number
     }

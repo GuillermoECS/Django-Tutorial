@@ -1,0 +1,88 @@
+{% load static %}
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'fabricjs/style.css' %}">
+       <!-- <script src="{% static 'fabricjs/jquery.min.js' %}"></script> -->
+        <script src="{% static 'fabricjs/fabric.min.js' %}"></script>
+        <script src="{% static 'fabricjs/canvas-toBlob.js' %}"></script>
+        <script src="{% static 'fabricjs/jquery.min.js' %}"></script>
+        <script src="{% static 'fabricjs/FileSaver.min.js' %}"></script>
+
+
+    </head>
+    <body>
+        <!--Fabric.js Object caching-->
+        {% if tutorial_number == 7 %}
+        <h1 align=center>Fabric.js Object caching</h1>
+        <!--Load image PNG / SVG-->
+        <input align="center" id="loadImage" type="file" value="Load Image PNG /
+            SVG" onchange="upload(event)" class="button">
+        <br>
+        <div id="upload_canvas">
+            <!--Canvas-->
+            <canvas id="canvas" width="1000" height="450"></canvas>
+        </div>
+        <script src="{% static 'fabricjs/tutorial7.js' %}"> </script>
+        {% endif %}
+
+        <!--Introduction to Fabric.js. Part 1-->
+        {% if tutorial_number == 8 %}
+        <h1 align=center>Introduction to Fabric.js. Part 1</h1>
+        <br>
+        <div id="upload_canvas">
+            <!--Canvas-->
+            <canvas id="canvas" width="1000" height="450"></canvas>
+        </div>
+        <script src="{% static 'fabricjs/tutorial8.js' %}"> </script>
+        {% endif %}
+
+        <!--Introduction to Fabric.js. Part 2-->
+        {% if tutorial_number == 9 %}
+        <h1 align=center>Introduction to Fabric.js. Part 2</h1>
+        <br>
+        <div id="upload_canvas">
+            <!--Canvas-->
+            <canvas id="canvas" width="1000" height="450"></canvas>
+        </div>
+        <script src="{% static 'fabricjs/tutorial9.js' %}"> </script>
+        {% endif %}
+
+        <!--Introduction to Fabric.js. Part 3-->
+        {% if tutorial_number == 10 %}
+        <h1 align=center>Introduction to Fabric.js. Part 3</h1>
+        <br>
+        <!--Serialization-->
+        <input  id="serialization" type="button" value="Serialization" class="button">
+        <div id="upload_canvas">
+            <!--Canvas-->
+            <canvas id="canvas" width="1000" height="450"></canvas>
+        </div>
+        <!--DeSerialization-->
+        <input  id="deSerialization" type="button" value="Deserialization" class="button">
+        <script src="{% static 'fabricjs/tutorial10.js' %}"> </script>
+        {% endif %}
+
+        <!--Introduction to Fabric.js. Part 4-->
+        {% if tutorial_number == 11 %}
+        <h1 align=center>Introduction to Fabric.js. Part 4</h1>
+        <br>
+        <div id="upload_canvas">
+            <!--Canvas-->
+            <canvas id="canvas" width="1000" height="450"></canvas>
+        </div>
+        <script src="{% static 'fabricjs/tutorial11.js' %}"> </script>
+        {% endif %}
+
+        <!--Introduction to Fabric.js. Part 5-->
+        {% if tutorial_number == 12 %}
+        <h1 align=center>Introduction to Fabric.js. Part 5</h1>
+        <br>
+        <div id="upload_canvas">
+            <!--Canvas-->
+            <canvas id="canvas" width="1000" height="450"></canvas>
+        </div>
+        <script src="{% static 'fabricjs/tutorial12.js' %}"> </script>
+        {% endif %}
+    </body>
+</html>

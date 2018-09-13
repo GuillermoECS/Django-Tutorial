@@ -22,3 +22,10 @@ body {
     color: white;
     display:block;
 }
+#upload_canvas {
+    width: 1000px;
+    height:450px;
+    margin: 0px auto;
+    border: 5px solid black;
+    background-color: white;
+}
