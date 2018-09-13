@@ -1,4 +1,5 @@
 
+
 <h1 align="center">
   <br>
   <a href="https://www.djangoproject.com/"><img src="http://chittagongit.com//images/django-icon/django-icon-0.jpg" alt="Markdownify" width="200"></a>
@@ -57,6 +58,10 @@ $ python manage.py runserver
 -[JQuery and Django](http://www.tangowithdjango.com/book17/chapters/jquery.html)<br>
 -[How to use FileSaver.js](https://stackoverflow.com/questions/50126062/how-to-use-filesaver-js-to-save-text-files)<br>
 -[Fabricjs basics course Tutorial](https://youtu.be/fKoZaBiVOgY)<br>
+-[jQuery's document.ready function](https://stackoverflow.com/questions/13062246/when-should-i-use-jquerys-document-ready-function)<br>
+-[Import an image file using fabric.js](https://stackoverflow.com/questions/44745476/is-there-a-way-to-import-an-image-file-using-fabric-js)<br>
+-[SVG caching](http://fabricjs.com/svg-caching)<br>
+-[Active object never place on top](https://stackoverflow.com/questions/37028088/fabricjs-group-selection-brings-objects-to-front-while-selected)
 
 
 ## License
